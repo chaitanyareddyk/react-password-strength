@@ -1,0 +1,28 @@
+{
+  "name": "react-password-strength",
+  "version": "1.0.0",
+  "description": "![npm (scoped)](https://img.shields.io/npm/v/@chaitanyareddy/simple-password-strength)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaitanyareddyk/react-password-strength.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaitanyareddyk/react-password-strength/issues"
+  },
+  "homepage": "https://github.com/chaitanyareddyk/react-password-strength#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/zxcvbn": "^4.4.0",
+    "zxcvbn": "^4.4.2"
+  }
+}
