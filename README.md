@@ -2,7 +2,7 @@
 
 ![npm (scoped)](https://img.shields.io/npm/v/simple-password-strength)
 
-Get password strength in text/ color/ colored text or simple numerical score
+Get password strength in text/ color/ or simple numerical score
 
 ## Installation
 
@@ -28,15 +28,6 @@ const {strengthScoreColor} = require("simple-password-strength");
 
 const passwordStrengthColor = strengthScoreColor("Pass your password here!");
 console.log(passwordStrengthColor)
-```
-
-### Get password strength in colored text:
-
-```js
-const {strengthScoreTextWithColor} = require("simple-password-strength");
-
-const passwordStrengthColoredText = strengthScoreTextWithColor("Pass your password here!");
-console.log(passwordStrengthColoredText)
 ```
 
 ### Get password strength score:

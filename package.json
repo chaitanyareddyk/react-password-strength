@@ -1,7 +1,7 @@
 {
   "name": "simple-password-strength",
   "version": "1.0.0",
-  "description": "Get password strength in text/ color/ colored text or simple numerical score",
+  "description": "Get password strength in text/ color/ or simple numerical score",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   
@@ -25,9 +25,10 @@
     "password",
     "strength",
     "color",
+    "text",
+    "score",
     "simple",
-    "indicator",
-    "react"
+    "indicator"
     ],
   "author": "Chaitanya Reddy",
   "license": "ISC",

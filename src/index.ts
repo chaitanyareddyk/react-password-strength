@@ -49,9 +49,3 @@ export const strengthScoreColor = (value: string) => {
     return getStrengthColor(value);
   } else return -1;
 };
-
-export const strengthScoreTextWithColor = (value: string) => {
-  if (value.length > 0) {
-    return `<span style={{color: ` + getStrengthColor(value) + `}}>` + getStrengthName(value) + `</span>`;
-  } else return -1;
-};
